@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewsach"
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:src="@drawable/sanpham"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/masptv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Mã"
+        android:textSize="30sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tensptv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/masptv"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Tên sản phẩm"
+        android:textSize="25sp"></TextView>
+    <TextView
+        android:id="@+id/dovitv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:layout_below="@id/tensptv"
+        android:textSize="25sp"
+        android:text="đơn vị"
+        ></TextView>
+    <TextView
+        android:id="@+id/gia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Giá"
+        android:layout_below="@+id/dovitv"
+        android:layout_toRightOf="@id/imageviewsach">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soluongtv"
+        android:textSize="25sp"
+        android:text="Số lượng"
+        android:layout_below="@+id/gia"
+        android:layout_toRightOf="@id/imageviewsach"></TextView>
+
+
+
+</RelativeLayout>
